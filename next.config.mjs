@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        hostname: "in.xero.com",
+      },
+    ],
+  },
+};
 
 export default nextConfig;
